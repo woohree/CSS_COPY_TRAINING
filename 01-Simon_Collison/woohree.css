@@ -1,0 +1,63 @@
+body {
+  margin: 35px;
+  color: #1b1b1b;
+  font-family: 'ff-meta-serif-web-pro', Georgia, serif;
+  font-style: normal;
+  font-size: 1.1em;
+}
+
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.nav-title-title {
+  font-size: 1.8em;
+}
+
+.nav-title-sub {
+  font-size: 0.8em;
+  font-style: italic;
+  color: #7EA684;
+}
+
+.nav-menu {
+  display: flex;
+  margin: 2em 0 0 0;
+  padding-left: 0;
+  border-top: 2px solid #7EA684;
+}
+
+.nav-menu-item {
+  list-style: none;
+  border-right: 2px solid #7EA684;
+  padding: 1em;
+  padding-bottom: 0.5em;
+}
+
+.nav-menu-img {
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+}
+
+.nav-menu-left {
+  display: flex;
+  border-left: 2px solid #7EA684;
+}
+
+.nav-menu-right {
+  display: flex;
+  margin-left: auto;
+  border-left: 2px solid #7EA684;
+}
+
+
+/* content */
+
+.content-title {
+  font-size: 1.8em;
+}
