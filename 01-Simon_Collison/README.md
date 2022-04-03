@@ -1,7 +1,9 @@
-https://colly.com/articles
-
 ![](README.assets/진행중.png)
 
-​															원본																															내거
+좌측: 원본 https://colly.com/articles
 
-오른쪽 Stream, Tag 블록부터!
+우측: 내거
+
+# 진행중..
+
+- 오른쪽 Stream, Tag 블록부터!
