@@ -4,6 +4,7 @@ body {
   font-family: 'ff-meta-serif-web-pro', Georgia, serif;
   font-style: normal;
   font-size: 1.1em;
+  background: #D8DAC9;
 }
 
 
@@ -17,6 +18,7 @@ body {
 
 .nav-title-title {
   font-size: 1.8em;
+  font-family: "pt-sans",sans-serif;
 }
 
 .nav-title-sub {
@@ -36,7 +38,10 @@ body {
   list-style: none;
   border-right: 2px solid #7EA684;
   padding: 1em;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.7em;
+  color: #21718D;
+  font-family: "pt-sans",sans-serif;
+  font-weight: bold;
 }
 
 .nav-menu-img {
@@ -59,5 +64,55 @@ body {
 /* content */
 
 .content-title {
+  font-family: "pt-sans",sans-serif;
   font-size: 1.8em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
+
+.content-container {
+  width: 80%;
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2em;
+  row-gap: 4em;
+}
+
+.content-container .item-img-sub, .item-sub-title {
+  font-family: "pt-sans",sans-serif;
+}
+
+.content-container-item {
+  padding-top: 2em;
+  border-top: 1.5px solid #7EA684;
+}
+
+.content-container img {
+  max-width: 100%;
+}
+
+.item-img-sub {
+  color: #7EA684;
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.item-sub-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  border-bottom: 2px solid #21718D;
+  display: inline;
+  padding-bottom: 0.1rem;
+}
+
+.item-sub-sub {
+  margin-top: 1.2em;
+}
+
+
+.side {
+  display: inline-flex;
+}
+
