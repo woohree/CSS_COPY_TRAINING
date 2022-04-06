@@ -1,4 +1,4 @@
-![](README.assets/진행중.png)
+![](README.assets/진행중-16492566336861.png)
 
 좌측: 원본 https://colly.com/articles
 
@@ -6,4 +6,5 @@
 
 # 진행중..
 
-- 오른쪽 Stream, Tag 블록부터!
+- 하단 footer 부터!
+- footer 마무리하면 반응형 맞추기도 ㄱㄱㄱㄱ

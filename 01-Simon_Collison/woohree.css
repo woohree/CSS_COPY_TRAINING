@@ -1,5 +1,5 @@
 body {
-  margin: 35px;
+  margin: 50px;
   color: #1b1b1b;
   font-family: 'ff-meta-serif-web-pro', Georgia, serif;
   font-style: normal;
@@ -63,6 +63,11 @@ body {
 
 /* content */
 
+/* articles */
+.content {
+  display: flex;
+}
+
 .content-title {
   font-family: "pt-sans",sans-serif;
   font-size: 1.8em;
@@ -71,7 +76,7 @@ body {
 }
 
 .content-container {
-  width: 80%;
+  width: 220%;
   display: inline-grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 2em;
@@ -111,8 +116,50 @@ body {
   margin-top: 1.2em;
 }
 
-
+/* side */
 .side {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  padding-left: 1.2em;
+  margin-left: 2em;
+  border: 1.5px solid #7EA684;
+  border-right: none;
+}
+
+.side-item {
+  padding-bottom: 1.5em;
+  border-bottom: 1.5px solid #7EA684;
+}
+
+.side-item-title {
+  font-family: "pt-sans",sans-serif;
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.side-item-tag-title {
+  font-family: "pt-sans",sans-serif;
+  font-weight: bold;
+  margin-bottom: 0.6em;
+}
+
+.side-item-tag-title {
+  margin-top: 1em;
+}
+
+.side-tag-item {
   display: inline-flex;
+  width: fit-content;
+  background-color: white;
+  font-size: 0.9em;
+  padding: 0.3em;
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
+}
+
+.side-item2 {
+  padding-bottom: 1.5em;
 }
 
